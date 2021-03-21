@@ -2,16 +2,22 @@
 
 #   ELEMENT_NAME [optional-css-class] REGULAR_EXPRESSION
 
+	CASE_INSENSITIVE =OFF
+
     NAME                ABAP
     VERSION             1.8.4
 
     COMMENT             (^\s*\*.*?$)|(".*?$)
-    STRING				('.*?')|(`.*?`)
+	
+    MODIFIER            \b(?alt:statement.txt)\b
+    RESERVED			(?alt:reserved.txt)\(
+	TYPE				\b([z]{0,1}cx_[a-z\_0-9]*)\b
     
-    RESERVED			\b(?alt:reserved.txt)\b
-    
-    ENTITY				\b\w+(?=\([^\)]*\))
-    STATEMENT			\b(?alt:statement.txt)\b
+    ENTITY				(?default)
+    STATEMENT			\b([A-Z]*)\b
+	STRING				('.*?')|(`.*?`)|((:?\}[^\n]+?[\{])|(\|[^\|]*?\{)|(\}[^\n\|]*?\|)|(\|[^\n\|]+?\|))
+	
     OPERATOR            (?alt:operator.txt)
+	
     CONSTANT            (?default)
     SYMBOL              (?default)
