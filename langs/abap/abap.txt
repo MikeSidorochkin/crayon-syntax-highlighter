@@ -5,17 +5,17 @@
 	CASE_INSENSITIVE =OFF
 
     NAME                ABAP
-    VERSION             1.8.4
+    VERSION             1.0
 
     COMMENT             (^\s*\*.*?$)|(".*?$)
 	
     MODIFIER            \b(?alt:statement.txt)\b
-    RESERVED			(?alt:reserved.txt)\(
-	TYPE				\b([z]{0,1}cx_[a-z\_0-9]*)\b
+    RESERVED		(?alt:reserved.txt)\(
+    TYPE		\b([z]{0,1}cx_[a-z\_0-9]*)\b
     
-    ENTITY				(?default)
-    STATEMENT			\b([A-Z]*)\b
-	STRING				('.*?')|(`.*?`)|((:?\}[^\n]+?[\{])|(\|[^\|]*?\{)|(\}[^\n\|]*?\|)|(\|[^\n\|]+?\|))
+    ENTITY		(?default)
+    STATEMENT		\b([A-Z]*)\b
+    STRING		('.*?')|(`.*?`)|((:?\}[^\n]+?[\{])|(\|[^\|]*?\{)|(\}[^\n\|]*?\|)|(\|[^\n\|]+?\|))
 	
     OPERATOR            (?alt:operator.txt)
 	
