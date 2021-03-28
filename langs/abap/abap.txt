@@ -10,7 +10,7 @@
     COMMENT             (^\s*\*.*?$)|(".*?$)
 	
     MODIFIER            \b(?alt:statement.txt)\b
-    RESERVED		(?alt:reserved.txt)\(
+    RESERVED		(?alt:reserved.txt)(?=\()
     TYPE		\b([z]{0,1}cx_[a-z\_0-9]*)\b
     
     ENTITY		(?default)
