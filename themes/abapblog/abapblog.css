@@ -1,82 +1,72 @@
 /*
 Name: Abapblog
-Description: ABAP Blog Theme
+Description: ABAP Blog
 Version: 1.0
-Author: Sidorochkin Mikhail
+Author: abap blog
 URL: https://abap-blog.ru
 */
 .crayon-theme-abapblog {
 	border-width: 1px !important;
-	border-color: #c3c3c3 !important;
-	border-style: solid !important;
+	border-color: #000000 !important;
 	text-shadow: none !important;
-	background: #fdfdfd !important;
+	background: #424242 !important;
 }
 .crayon-theme-abapblog-inline {
 	border-width: 1px !important;
-	border-color: #ddd !important;
-	border-style: solid !important;
-	background: #fafafa !important;
+	border-color: #000000 !important;
+	background: #27292c !important;
 }
 .crayon-theme-abapblog .crayon-table .crayon-nums {
-	background: #c3c3c3 !important;
-	color: #ffffff !important;
-}
-.crayon-theme-abapblog *::selection {
-	background: transparent !important;
-}
-.crayon-theme-abapblog .crayon-code *::selection {
-	background: #ddeeff !important;
-	color: #316ba5 !important;
+	background: #424242 !important;
+	color: #898989 !important;
+	border-right-width: 2px !important;
+	border-right-color: #555555 !important;
+	border-right-style: double !important;
 }
 .crayon-theme-abapblog .crayon-striped-line {
-	background: #f7f7f7 !important;
+	background: #474545 !important;
 }
 .crayon-theme-abapblog .crayon-striped-num {
-	background: #dbdbdb !important;
-	color: #000000 !important;
+	background: #424242 !important;
+	color: #c7c7c7 !important;
 }
 .crayon-theme-abapblog .crayon-marked-line {
-	background: #fffee2 !important;
+	background: #605f5f !important;
 	border-width: 1px !important;
-	border-color: #e9e579 !important;
+	border-color: #cfcfcf !important;
 }
 .crayon-theme-abapblog .crayon-marked-num {
-	color: #ffffff !important;
-	background: #a0a0a0 !important;
+	color: #898989 !important;
+	background: #424242 !important;
 	border-width: 1px !important;
-	border-color: #5999d9 !important;
+	border-color: #595959 !important;
 }
 .crayon-theme-abapblog .crayon-marked-line.crayon-striped-line {
-	background: #faf8d1 !important;
+	background: #605f5f !important;
 }
 .crayon-theme-abapblog .crayon-marked-num.crayon-striped-num {
-	background: #3c3c3c !important;
-	color: #ffffff !important;
+	background: #424242 !important;
+	color: #c7c7c7 !important;
 }
 .crayon-theme-abapblog .crayon-marked-line.crayon-top {
-	border-top-style: solid !important;
 }
 .crayon-theme-abapblog .crayon-marked-num.crayon-top {
-	border-top-style: solid !important;
 }
 .crayon-theme-abapblog .crayon-marked-line.crayon-bottom {
-	border-bottom-style: solid !important;
 }
 .crayon-theme-abapblog .crayon-marked-num.crayon-bottom {
-	border-bottom-style: solid !important;
 }
 .crayon-theme-abapblog .crayon-info {
-	background: #faf9d7 !important;
+	background: #333333 !important;
 	border-bottom-width: 1px !important;
 	border-bottom-color: #b1af5e !important;
+	color: #eeeeee !important;
 	border-bottom-style: solid !important;
-	color: #7e7d34 !important;
 }
 .crayon-theme-abapblog .crayon-toolbar {
-	background: #e7e5e5 !important;
+	background: #999999 !important;
 	border-bottom-width: 1px !important;
-	border-bottom-color: #d5d5d5 !important;
+	border-bottom-color: #2e2e2e !important;
 	border-bottom-style: solid !important;
 }
 .crayon-theme-abapblog .crayon-toolbar > div {
@@ -86,86 +76,94 @@ URL: https://abap-blog.ru
 	float: right !important;
 }
 .crayon-theme-abapblog .crayon-title {
-	color: #050505 !important;
+	color: #626262 !important;
 }
 .crayon-theme-abapblog .crayon-language {
-	color: #999 !important;
+	color: #626262 !important;
 }
 .crayon-theme-abapblog .crayon-button {
-	background-color: #5a89bf !important;
 }
 .crayon-theme-abapblog .crayon-button:hover {
-	background-color: #4fc2ff !important;
+	background-color: #bcbcbc !important;
 	color: #666;
 }
 .crayon-theme-abapblog .crayon-button.crayon-pressed:hover {
-	background-color: #4fc2ff !important;
+	background-color: #bcbcbc !important;
 	color: #666;
 }
 .crayon-theme-abapblog .crayon-button.crayon-pressed {
-	background-color: #8e4c4c !important;
+	background-color: #626262 !important;
 	color: #FFF;
 }
 .crayon-theme-abapblog .crayon-button.crayon-pressed:active {
-	background-color: #6b95ca !important;
+	background-color: #626262 !important;
 	color: #FFF;
 }
 .crayon-theme-abapblog .crayon-button:active {
-	background-color: #6b95ca !important;
+	background-color: #bcbcbc !important;
 	color: #FFF;
 }
 .crayon-theme-abapblog .crayon-pre .crayon-c {
-	color: #ff8000 !important;
+	color: #c3c0c0 !important;
+	font-style: italic !important;
 }
 .crayon-theme-abapblog .crayon-pre .crayon-s {
-	color: #008000 !important;
+	color: #7ec97e !important;
 }
 .crayon-theme-abapblog .crayon-pre .crayon-p {
 	color: #b85c00 !important;
 }
 .crayon-theme-abapblog .crayon-pre .crayon-ta {
-	color: #FF0000 !important;
+	color: #d35a5a !important;
 }
 .crayon-theme-abapblog .crayon-pre .crayon-k {
-	color: #800080 !important;
+	color: #EFEDB0 !important;
 }
 .crayon-theme-abapblog .crayon-pre .crayon-st {
-	color: #800080 !important;
+	color: #EFEDB0 !important;
+	font-weight: bold !important;
 }
 .crayon-theme-abapblog .crayon-pre .crayon-r {
-	color: #800080 !important;
+	color: #CAE385 !important;
+	font-weight: bold !important;
 }
 .crayon-theme-abapblog .crayon-pre .crayon-t {
-	color: #800080 !important;
+	color: #ea787a !important;
+	font-weight: bold !important;
 }
 .crayon-theme-abapblog .crayon-pre .crayon-m {
-	color: #800080 !important;
+	color: #fbb27b !important;
+	font-weight: bold !important;
 }
 .crayon-theme-abapblog .crayon-pre .crayon-i {
-	color: #000 !important;
+	color: #ffffbc !important;
 }
 .crayon-theme-abapblog .crayon-pre .crayon-e {
-	color: #004ed0 !important;
+	color: #D3C2A8 !important;
 }
 .crayon-theme-abapblog .crayon-pre .crayon-v {
-	color: #002D7A !important;
+	color: #ffffbc !important;
 }
 .crayon-theme-abapblog .crayon-pre .crayon-cn {
-	color: #ce0000 !important;
+	color: #67B7CD !important;
+	font-weight: bold !important;
 }
 .crayon-theme-abapblog .crayon-pre .crayon-o {
-	color: #006fe0 !important;
+	color: #ffffff !important;
 }
 .crayon-theme-abapblog .crayon-pre .crayon-sy {
-	color: #333 !important;
+	color: #c9d2d1 !important;
 }
 .crayon-theme-abapblog .crayon-pre .crayon-n {
 	color: #666 !important;
 	font-style: italic !important;
 }
 .crayon-theme-abapblog .crayon-pre .crayon-f {
-	color: #999 !important;
+	color: #999999 !important;
 }
 .crayon-theme-abapblog .crayon-pre .crayon-h {
 	color: #006fe0 !important;
+}
+.crayon-theme-abapblog .crayon-pre {
+	color: #D3C2A8 !important;
 }

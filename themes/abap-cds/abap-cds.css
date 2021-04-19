@@ -1,0 +1,180 @@
+/*
+Name: Abap Cds
+Description: ABAP CDS
+Version: 1.0
+Author: Sidorochkin Mikhail
+URL: http://abap-blog.ru
+*/
+.crayon-theme-abap-cds {
+	border-width: 1px !important;
+	border-color: #999 !important;
+	border-style: solid !important;
+	text-shadow: none !important;
+	background: #282C34 !important;
+}
+.crayon-theme-abap-cds-inline {
+	border-width: 1px !important;
+	border-color: #ddd !important;
+	border-style: solid !important;
+	background: #fafafa !important;
+}
+.crayon-theme-abap-cds .crayon-table .crayon-nums {
+	background: #1E1E1E !important;
+	color: #505052 !important;
+	border-right-width: 2px !important;
+	border-right-color: #373B43 !important;
+	border-right-style: solid !important;
+}
+.crayon-theme-abap-cds .crayon-striped-line {
+	background: #2b3038 !important;
+}
+.crayon-theme-abap-cds .crayon-striped-num {
+	background: #1E1E1E !important;
+	color: #6c6c6e !important;
+}
+.crayon-theme-abap-cds .crayon-marked-line {
+	background: #2C313A !important;
+	border-width: 1px !important;
+	border-color: #373C45 !important;
+}
+.crayon-theme-abap-cds .crayon-marked-num {
+	color: #7e7e81 !important;
+	background: #1E1E1E !important;
+	border-width: 0px !important;
+	border-color: #49525b !important;
+}
+.crayon-theme-abap-cds .crayon-marked-line.crayon-striped-line {
+	background: #3b424e !important;
+}
+.crayon-theme-abap-cds .crayon-marked-num.crayon-striped-num {
+	background: #1E1E1E !important;
+	color: #9494a2 !important;
+}
+.crayon-theme-abap-cds .crayon-marked-line.crayon-top {
+	border-top-style: solid !important;
+}
+.crayon-theme-abap-cds .crayon-marked-num.crayon-top {
+}
+.crayon-theme-abap-cds .crayon-marked-line.crayon-bottom {
+	border-bottom-style: solid !important;
+}
+.crayon-theme-abap-cds .crayon-marked-num.crayon-bottom {
+}
+.crayon-theme-abap-cds .crayon-info {
+	background: #faf9d7 !important;
+	border-bottom-width: 1px !important;
+	border-bottom-color: #b1af5e !important;
+	border-bottom-style: solid !important;
+	color: #7e7d34 !important;
+}
+.crayon-theme-abap-cds .crayon-toolbar {
+	background: #DDD !important;
+	border-bottom-width: 1px !important;
+	border-bottom-color: #BBB !important;
+	border-bottom-style: solid !important;
+}
+.crayon-theme-abap-cds .crayon-toolbar > div {
+	float: left !important;
+}
+.crayon-theme-abap-cds .crayon-toolbar .crayon-tools {
+	float: right !important;
+}
+.crayon-theme-abap-cds .crayon-title {
+	color: #333 !important;
+}
+.crayon-theme-abap-cds .crayon-language {
+	color: #999 !important;
+}
+.crayon-theme-abap-cds .crayon-button {
+	background-color: #DDD !important;
+}
+.crayon-theme-abap-cds .crayon-button:hover {
+	background-color: #EEE !important;
+	color: #666;
+}
+.crayon-theme-abap-cds .crayon-button.crayon-pressed:hover {
+	background-color: #EEE !important;
+	color: #666;
+}
+.crayon-theme-abap-cds .crayon-button.crayon-pressed {
+	background-color: #BCBCBC !important;
+	color: #FFF;
+}
+.crayon-theme-abap-cds .crayon-button.crayon-pressed:active {
+	background-color: #BCBCBC !important;
+	color: #FFF;
+}
+.crayon-theme-abap-cds .crayon-button:active {
+	background-color: #BCBCBC !important;
+	color: #FFF;
+}
+.crayon-theme-abap-cds .crayon-pre .crayon-c {
+	color: #79766F !important;
+	font-style: italic !important;
+}
+.crayon-theme-abap-cds .crayon-pre .crayon-s {
+	color: #BD7F67 !important;
+}
+.crayon-theme-abap-cds .crayon-pre .crayon-p {
+	color: #963200 !important;
+}
+.crayon-theme-abap-cds .crayon-pre .crayon-ta {
+	color: #FF0000 !important;
+}
+.crayon-theme-abap-cds .crayon-pre .crayon-k {
+	color: #4591CC !important;
+}
+.crayon-theme-abap-cds .crayon-pre .crayon-st {
+	color: #8FD4E4 !important;
+	font-weight: bold !important;
+	font-style: italic !important;
+}
+.crayon-theme-abap-cds .crayon-pre .crayon-r {
+	color: #93C282 !important;
+	font-weight: bold !important;
+}
+.crayon-theme-abap-cds .crayon-pre .crayon-t {
+	color: #45C4A8 !important;
+	font-weight: bold !important;
+	font-style: italic !important;
+}
+.crayon-theme-abap-cds .crayon-pre .crayon-m {
+	color: #4591CC !important;
+	font-weight: bold !important;
+}
+.crayon-theme-abap-cds .crayon-pre .crayon-i {
+	color: #74C1D6 !important;
+}
+.crayon-theme-abap-cds .crayon-pre .crayon-e {
+	color: #df9802 !important;
+	font-weight: bold !important;
+}
+.crayon-theme-abap-cds .crayon-pre .crayon-v {
+	color: #008080 !important;
+}
+.crayon-theme-abap-cds .crayon-pre .crayon-cn {
+	color: #ce0000 !important;
+}
+.crayon-theme-abap-cds .crayon-pre .crayon-o {
+	color: #E9C222 !important;
+	font-weight: bold !important;
+}
+.crayon-theme-abap-cds .crayon-pre .crayon-sy {
+	color: #ffffff !important;
+}
+.crayon-theme-abap-cds .crayon-pre .crayon-n {
+	color: #666 !important;
+	font-style: italic !important;
+}
+.crayon-theme-abap-cds .crayon-pre .crayon-f {
+	color: #999 !important;
+}
+.crayon-theme-abap-cds .crayon-pre .crayon-h {
+	color: #006fe0 !important;
+}
+.crayon-theme-abap-cds .crayon-pre {
+	color: #ffffff !important;
+}
+.crayon-syntax pre {
+	color: #000000 !important;
+}
