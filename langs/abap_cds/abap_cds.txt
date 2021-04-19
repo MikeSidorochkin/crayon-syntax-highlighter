@@ -1,0 +1,21 @@
+### ABAP_CDS LANGUAGE ###
+
+#   ELEMENT_NAME [optional-css-class] REGULAR_EXPRESSION
+
+	CASE_INSENSITIVE =OFF
+
+    NAME                ABAP_CDS
+    VERSION             1.0
+
+    COMMENT             (/\*.*?\*/)|(\/\/.*?$)
+	OPERATOR            (?alt:operator.txt)
+    MODIFIER            \b(?alt:statement.txt)\b
+    STRING				('.*?')|(`.*?`)
+    RESERVED			(\@.*?[\:\s\,])
+	TYPE				(abap\..+?)(?=[[:cntrl:]\s\,])
+    
+    ENTITY				(\#.*?[\:\s\,])
+    STATEMENT			\b([A-Z\_]*)\b
+	
+    CONSTANT            (?default)
+    SYMBOL              (?default)

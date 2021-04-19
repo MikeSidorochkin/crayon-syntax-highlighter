@@ -1,0 +1,23 @@
+### ABAP_SYNTAX LANGUAGE ###
+
+#   ELEMENT_NAME [optional-css-class] REGULAR_EXPRESSION
+
+	CASE_INSENSITIVE =OFF
+
+    NAME                ABAP_SYNTAX
+    VERSION             1.8.4
+
+    COMMENT             (^\s*\*.*?$)|(".*?$)
+	
+    MODIFIER            \b(?alt:statement.txt)\b
+    RESERVED			(?alt:reserved.txt)\(
+	TYPE				\b([z]{0,1}cx_[a-z\_0-9]*)\b
+    
+    ENTITY				(?default)
+    STATEMENT			\b([A-Z\_]*)\b
+	STRING				('.*?')|(`.*?`)
+	
+    OPERATOR            (?alt:operator.txt)
+	
+    CONSTANT            (?default)
+    SYMBOL              (?default)

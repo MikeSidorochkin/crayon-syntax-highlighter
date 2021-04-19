@@ -1,0 +1,164 @@
+define table function
+define view
+as
+with parameters
+returns
+implemented by method
+select from
+case
+when
+else
+concat
+substring
+currency_conversion
+end as
+cast
+inner join
+left join
+cross join
+sum
+min
+max
+where
+group by
+order by
+having
+union
+to
+association
+define role
+grant
+aspect
+pfcg_auth
+select distinct from
+distinct
+from
+on
+left
+outer
+join
+all
+and
+as
+association
+avg
+case
+cast
+count
+cross
+distinct
+exists
+extend
+extension
+from
+full
+group
+having
+inner
+join
+key
+left
+max
+min
+not
+null
+on
+or
+order
+right
+select
+sum
+union
+view
+when
+where
+define annotation
+enum
+default
+array of
+projection
+root
+default filter
+1:
+composition
+to parent
+$extension.
+union all
+virtual
+localized
+redirected to
+composition child
+between
+like
+is null
+abs
+ceil
+div
+division
+floor
+mod
+round
+concat
+concat_with_space
+instr
+length
+lpad
+lower
+ltrim
+replace
+rpad
+rtrim
+substring
+upper
+coalesce
+fltp_to_dec
+unit_conversion
+currency_conversion
+decimal_shift
+dats_is_valid
+dats_days_between
+dats_add_days
+dats_add_months
+tims_is_valid
+tstmp_is_valid
+tstmp_current_utctimestamp
+tstmp_seconds_between
+tstmp_add_seconds
+abap_system_timezone
+abap_user_timezone
+tstmp_to_dats
+tstmp_to_tims
+tstmp_to_dst
+dats_tims_to_tstmp
+extend view entity
+define hierarchy
+as parent child hierarchy
+source
+child to parent association
+period from
+valid from
+directory
+filter by
+start where
+siblings order by
+depth
+nodetype
+multiple parents
+orphans
+cycles
+generate spantree
+define abstract entity
+variant
+grant select on
+combination mode
+redefinition
+inherit
+aspect user
+pfcg_mapping
+for grant select on
+bypass when
+in scenario
+inherit conditions from entity
+inherit conditions from super
+define accesspolicy
+define pfcg_mapping
